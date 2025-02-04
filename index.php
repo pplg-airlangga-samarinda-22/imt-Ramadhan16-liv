@@ -23,7 +23,6 @@
             $bmi = $Bbadan / ($Tbadan * $Tbadan);
             echo "<h2>Berat badan: $Bbadan kg, Tinggi badan: $Tbadan m, BMI: $bmi</h2>"; 
 
-            // Menentukan kategori BMI
             if ($bmi < 17.0) {
                 print ("Kurus, kekurangan berat badan berat");
             } elseif ($bmi < 18.4) {
